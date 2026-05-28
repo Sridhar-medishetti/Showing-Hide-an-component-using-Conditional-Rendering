@@ -18,78 +18,32 @@ In this project, let's build a **Show/Hide App** by applying the concepts we hav
 
 </details>
 
-### Set Up Instructions
+# Show/Hide Component
 
-<details>
-<summary>Click to view</summary>
+A simple and interactive React application that demonstrates **Conditional Rendering** and **State Management** in Class Components. The app allows users to show or hide the first name and last name independently by clicking the respective buttons.
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
+---
 
-### Completion Instructions
+## 🚀 Features
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+* **Toggle Visibility:** Independently show or hide the first name ("Joe") and last name ("Jonas") with button clicks.
+* **Dynamic UI Update:** Uses React state to cleanly mount or unmount elements from the DOM.
+* **Responsive Layout:** Styled cleanly with a centered flexbox design.
 
-The app must have the following functionalities
+---
 
-- The **Firstname** and **Lastname** should be hidden initially
-- When the **Show/Hide Firstname** button is clicked,
-  - If the Firstname is hidden, then it should be displayed
-  - If the Firstname is displayed, then it should be hidden
-- When the **Show/Hide Lastname** button is clicked,
-  - If the Lastname is hidden, then it should be displayed
-  - If the Lastname is displayed, then it should be hidden
+## 🛠️ Tech Stack Used
 
-</details>
+* **Frontend Library:** React.js (Class Components, State, Lifecycle management)
+* **Styling:** CSS3 (Flexbox, custom responsive layouts, and transitions)
+* **Build Tool / Environment:** Create React App (CRA) development environment
+* **Package Manager:** npm (Node Package Manager)
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
+---
 
-Use these files to complete the implementation:
+## 📦 Installation & Getting Started
 
-- `src/components/ShowHide/index.js`
-- `src/components/ShowHide/index.css`
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-<br/>
-**The following instructions are required for the tests to pass**
-
-- Achieve the given layout using only Conditional Rendering
-</details>
-
-### Resources
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #fa7257 ; width: 150px; padding: 10px; color: white">Hex: #fa7257</div>
-<div style="background-color: #fc63a7 ; width: 150px; padding: 10px; color: white">Hex: #fc63a7</div>
-<div style="background-color: #ffffff ; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #dd1264 ; width: 150px; padding: 10px; color: white">Hex: #dd1264</div>
-<div style="background-color: #fddddb ; width: 150px; padding: 10px; color: black">Hex: #fddddb</div>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+1. Clone this repository:
+   ```bash
+   git clone [https://github.com/Sridhar-medishetti/Showing-Hide-an-component-using-Conditional-Rendering.git](https://github.com/Sridhar-medishetti/Showing-Hide-an-component-using-Conditional-Rendering.git)
+   
